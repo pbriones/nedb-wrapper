@@ -18,6 +18,8 @@ var storage = new Storage(); //defaults to ./db/local-storage.db
 
 //var storage = new Storage('./path/storage.db)
 //var storage = new Storage(null, true)  for in-memory only
+//var storage = new Storage(null, false, onload)  to add onload listener
+//function onload(err){};
 ```
 
 Currently includes as-is from NeDB:
